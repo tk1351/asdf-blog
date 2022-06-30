@@ -1,0 +1,30 @@
+.title {
+    margin-bottom: 20px;
+}
+
+.markdown > p > a {
+    opacity: 0.8;
+}
+
+.markdown > p > a:hover {
+    text-decoration: underline;
+}
+
+.markdown > p > code {
+    font-size: 16px;
+    padding: 3px;
+    border-radius: 3px;
+    background-color: #333F44;
+}
+
+.markdown > *:not(:last-child) {
+    margin-bottom: 10px;
+}
+
+.markdown > pre {
+    display: block;
+    overflow-x: auto;
+    padding: 1em;
+    border-radius: 7px;
+    background-color: #333F44;
+}

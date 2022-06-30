@@ -1,0 +1,13 @@
+.container {
+    width: 100vw;
+    min-height: 100vh;
+    padding: 0 400px;
+    background-color: #1A1A1B;
+    color: #ffffff;
+}
+
+@media (max-width: 393px) {
+    .container {
+        padding: 0;
+    }
+}
